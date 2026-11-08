@@ -12,16 +12,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Club Trendy | 15% OFF en tu primera compra</title>
-  <meta name="description" content="Únete al Club Trendy y recibe 15% de descuento, lanzamientos antes que nadie y tips de maquillaje. Proyecto académico.">
+  <meta name="description" content="Únete gratis al Club Trendy: recibe 15% de descuento en maquillaje, skincare y accesorios, lanzamientos antes que nadie, asesoría y envíos a toda Colombia.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#c2185b">
+  <link rel="canonical" href="https://keving1288.github.io/Club-Trendy/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Club Trendy | 15% OFF en tu primera compra">
+  <meta property="og:description" content="Únete gratis al Club Trendy y recibe 15% de descuento en maquillaje, skincare y accesorios.">
+  <meta property="og:url" content="https://keving1288.github.io/Club-Trendy/">
+  <meta property="og:locale" content="es_CO">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c2185b'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' fill='white' font-family='Georgia,serif'%3ET%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;600&display=swap"></noscript>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"Club Trendy","url":"https://keving1288.github.io/Club-Trendy/","inLanguage":"es-CO","description":"Club de beneficios de maquillaje: 15% de descuento en la primera compra, lanzamientos anticipados y asesoría."}
+  </script>
 
   <style>
     :root{
-      --pink:#e8467c; --pink-dark:#c52d63; --pink-soft:#ffe3ec;
+      --pink:#c2185b; --pink-dark:#9c1048; --pink-soft:#ffe3ec;
       --cream:#fff7f9; --plum:#2b1730; --plum-2:#4a2a52;
-      --gold:#f3b562; --text:#3b2a3f; --muted:#7b6a80; --white:#fff;
+      --gold:#f3b562; --text:#3b2a3f; --muted:#65546b; --white:#fff;
       --radius:22px; --shadow:0 18px 40px -18px rgba(197,45,99,.35);
     }
     *{box-sizing:border-box;margin:0;padding:0}
@@ -68,8 +83,7 @@
     .hero-meta span{font-size:.85rem;color:var(--muted)}
     .hero-visual{position:relative;aspect-ratio:1/1;max-width:440px;margin-inline:auto;width:100%}
     .blob{position:absolute;inset:0;border-radius:42% 58% 63% 37%/45% 41% 59% 55%;
-      background:linear-gradient(140deg,var(--pink) 0%,#f79ab8 55%,var(--gold) 100%);animation:morph 9s ease-in-out infinite}
-    @keyframes morph{50%{border-radius:58% 42% 38% 62%/55% 61% 39% 45%}}
+      background:linear-gradient(140deg,var(--pink) 0%,#f79ab8 55%,var(--gold) 100%)}
     /* labial dibujado con CSS */
     .lipstick{position:absolute;left:30%;bottom:16%;width:22%;height:58%}
     .lipstick .tip{height:32%;background:var(--pink-dark);border-radius:60% 60% 6px 6px/90% 90% 6px 6px;width:70%;margin-inline:auto}
@@ -123,7 +137,7 @@
     .testimonials{background:var(--pink-soft)}
     .t-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:50px}
     .t-card{background:var(--white);border-radius:var(--radius);padding:30px}
-    .stars{color:var(--gold);letter-spacing:3px;margin-bottom:12px}
+    .stars{color:#8a5a00;letter-spacing:3px;margin-bottom:12px}
     .t-card p{font-style:italic;margin-bottom:20px}
     .t-person{display:flex;align-items:center;gap:12px}
     .avatar{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;color:var(--white);font-weight:600}
@@ -150,10 +164,11 @@
     /* 10. FOOTER */
     footer{background:var(--plum);color:#d9c6de;padding:60px 0 26px;font-size:.9rem}
     .f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
-    footer h4{color:var(--white);font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:14px}
+    footer h4x{color:var(--white);font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:14px}
     footer ul{list-style:none}footer li{margin-bottom:8px}
     footer a:hover{color:var(--white)}
     footer .logo{color:var(--white)}
+    footer .logo span{color:#ff9cc0}
     .f-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:40px;padding-top:20px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.8rem}
     @media(max-width:820px){.f-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:480px){.f-grid{grid-template-columns:1fr}section{padding:70px 0}.cta-box{padding:40px 24px}}
@@ -164,6 +179,12 @@
     .wa-float:hover{transform:scale(1.08)}
     .wa-float svg{width:30px;height:30px;fill:#fff;pointer-events:none} /* para que el clic lo reciba el <a> con su ID */
 
+    .s1{top:12%;left:18%}.s2{top:58%;right:40%;animation-delay:.8s}.s3{bottom:8%;left:12%;animation-delay:1.5s}
+    .muted{color:var(--muted)} .t-left{text-align:left} .f-desc{margin-top:12px;max-width:280px}
+    .av1{background:var(--pink)} .av2{background:var(--plum-2)} .av3{background:#7a4a00}
+    footer h3{color:var(--white);font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:14px}
+    .hs-form-frame{min-height:420px}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
     .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
     .reveal.show{opacity:1;transform:none}
 
@@ -228,7 +249,7 @@
   <!-- ===== 2. HERO ===== -->
   <section class="hero" id="inicio">
     <div class="container hero-grid">
-      <div class="reveal">
+      <div>
         <span class="eyebrow">Maquillaje · Skincare · Accesorios</span>
         <h1>Tu belleza, <em>tu estilo</em>, a precios que enamoran</h1>
         <p class="lead">Únete al Club Trendy y recibe un <strong>15% de descuento</strong> en tu primera compra, acceso anticipado a nuevas colecciones y tips de maquillaje cada semana.</p>
@@ -239,13 +260,13 @@
           <div><strong>0 $</strong><span>costo de inscripción</span></div>
         </div>
       </div>
-      <div class="hero-visual reveal" aria-hidden="true">
+      <div class="hero-visual" aria-hidden="true">
         <div class="blob"></div>
         <div class="compact"></div>
         <div class="lipstick"><div class="tip"></div><div class="ring"></div><div class="body"></div></div>
-        <span class="sparkle" style="top:12%;left:18%">✦</span>
-        <span class="sparkle" style="top:58%;right:40%;animation-delay:.8s">✦</span>
-        <span class="sparkle" style="bottom:8%;left:12%;animation-delay:1.5s">✦</span>
+        <span class="sparkle s1">✦</span>
+        <span class="sparkle s2">✦</span>
+        <span class="sparkle s3">✦</span>
         <div class="badge"><strong>-15%</strong><span>primera compra</span></div>
       </div>
     </div>
@@ -313,7 +334,7 @@
         <div>
           <span class="eyebrow">Registro</span>
           <h3>Únete al Club Trendy</h3>
-          <p style="color:var(--muted)">Completa tus datos y recibe tu bienvenida.</p>
+          <p class="muted">Completa tus datos y recibe tu bienvenida.</p>
           <ul>
             <li>Cupón 15% en tu primera compra</li>
             <li>Novedades y ofertas semanales</li>
@@ -322,7 +343,6 @@
         </div>
         <div>
           <!-- Formulario HubSpot -->
-          <script src="https://js.hsforms.net/forms/embed/52186806.js" defer></script>
           <div class="hs-form-frame" data-region="na1" data-form-id="42041f75-5012-4541-8668-a09c877f33d1" data-portal-id="52186806"></div>
         </div>
       </div>
@@ -334,21 +354,21 @@
     <div class="container center">
       <span class="eyebrow">Testimonios</span>
       <h2 class="section-title">Lo que dicen nuestras clientas</h2>
-      <div class="t-grid" style="text-align:left">
+      <div class="t-grid t-left">
         <div class="t-card reveal">
-          <div class="stars">★★★★★</div>
+          <div class="stars" role="img" aria-label="5 de 5 estrellas">★★★★★</div>
           <p>“Los polvos sueltos me duran todo el día y el precio es buenísimo. Con el cupón del club me salió aún mejor.”</p>
-          <div class="t-person"><div class="avatar" style="background:var(--pink)">LM</div><div><strong>Laura M.</strong><span>Bogotá</span></div></div>
+          <div class="t-person"><div class="avatar av1" aria-hidden="true">LM</div><div><strong>Laura M.</strong><span>Bogotá</span></div></div>
         </div>
         <div class="t-card reveal">
-          <div class="stars">★★★★★</div>
+          <div class="stars" role="img" aria-label="5 de 5 estrellas">★★★★★</div>
           <p>“Me asesoraron por WhatsApp para escoger mi base y acertaron con el tono. El envío llegó en dos días.”</p>
-          <div class="t-person"><div class="avatar" style="background:var(--plum-2)">VR</div><div><strong>Valentina R.</strong><span>Medellín</span></div></div>
+          <div class="t-person"><div class="avatar av2" aria-hidden="true">VR</div><div><strong>Valentina R.</strong><span>Medellín</span></div></div>
         </div>
         <div class="t-card reveal">
-          <div class="stars">★★★★☆</div>
+          <div class="stars" role="img" aria-label="4 de 5 estrellas">★★★★☆</div>
           <p>“Me encanta enterarme primero de las colecciones nuevas. Ya compré dos kits de labios para regalar.”</p>
-          <div class="t-person"><div class="avatar" style="background:var(--gold)">CA</div><div><strong>Camila A.</strong><span>Cali</span></div></div>
+          <div class="t-person"><div class="avatar av3" aria-hidden="true">CA</div><div><strong>Camila A.</strong><span>Cali</span></div></div>
         </div>
       </div>
       <p class="note">*Testimonios ilustrativos creados para este proyecto académico.</p>
@@ -406,14 +426,14 @@
       <div class="f-grid">
         <div>
           <a href="#inicio" class="logo">Club <span>Trendy</span></a>
-          <p style="margin-top:12px;max-width:280px">Landing page de captación de leads inspirada en la tienda de maquillaje Trendy Shop.</p>
+          <p class="f-desc">Landing page de captación de leads inspirada en la tienda de maquillaje Trendy Shop.</p>
         </div>
-        <div><h4>Navegación</h4><ul>
+        <div><h3>Navegación</h3><ul>
           <li><a href="#beneficios">Beneficios</a></li><li><a href="#como-funciona">Cómo funciona</a></li>
           <li><a href="#testimonios">Testimonios</a></li><li><a href="#faq">Preguntas</a></li></ul></div>
-        <div><h4>Categorías</h4><ul>
+        <div><h3>Categorías</h3><ul>
           <li>Maquillaje</li><li>Cuidado de la piel</li><li>Brochas y esponjas</li><li>Accesorios</li><li>Capilar</li></ul></div>
-        <div><h4>Síguenos</h4><ul>
+        <div><h3>Síguenos</h3><ul>
           <li><a href="https://www.instagram.com/trendyshopbtanew/" target="_blank" rel="noopener" class="social-link" id="social-instagram">Instagram</a></li>
           <li><a href="https://www.tiktok.com/@trendyshopbta" target="_blank" rel="noopener" class="social-link" id="social-tiktok">TikTok</a></li>
           <li><a href="https://www.youtube.com/@trendyshopbta" target="_blank" rel="noopener" class="social-link" id="social-youtube">YouTube</a></li></ul></div>
@@ -434,6 +454,21 @@
     // Animación al hacer scroll
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); io.unobserve(e.target); } }), { threshold: .15 });
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Carga el formulario de HubSpot solo cuando el usuario se acerca (mejora el rendimiento)
+    (function(){
+      var loaded = false, target = document.getElementById('registro');
+      function loadHS(){
+        if (loaded) return; loaded = true;
+        var sc = document.createElement('script');
+        sc.src = 'https://js.hsforms.net/forms/embed/52186806.js'; sc.defer = true;
+        document.body.appendChild(sc);
+      }
+      if ('IntersectionObserver' in window && target){
+        new IntersectionObserver(function(es, ob){ if (es[0].isIntersecting){ loadHS(); ob.disconnect(); } }, { rootMargin: '600px' }).observe(target);
+      } else { loadHS(); }
+      document.querySelectorAll('a[href="#registro"]').forEach(function(a){ a.addEventListener('click', loadHS); });
+    })();
 
     // Envío del formulario HubSpot -> dataLayer (evento GTM "hubspot_form_submit")
     window.dataLayer = window.dataLayer || [];
